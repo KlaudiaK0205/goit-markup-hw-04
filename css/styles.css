@@ -13,6 +13,8 @@
 
 body {
   font-family: var(--main-font);
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -97,9 +99,6 @@ img {
 /* ========== END COMPONENTS ========== */
 
 /* ========== HEADER ========== */
-.body {
-  width: 1600px;
-}
 
 .header {
   border-bottom: 1px solid var(--quinary-color);
@@ -126,7 +125,7 @@ img {
 }
 
 .header .mailto {
-  margin-left: auto;
+  /* margin-left: auto; */
   margin-right: 50px;
 }
 
@@ -161,16 +160,29 @@ img {
   color: var(--septenary-color);
 }
 
+.mailto-icon {
+  margin-left: auto;
+}
+
+.mailto-icon,
+.smartphone-icon {
+  margin-right: 10px;
+}
+
+
 /* ========== END HEADER ========== */
 
 /* ========== EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU ========== */
 
 .hero {
   background-color: var(--quaternary-color);
-  background-image: url(../images/background-image.jpg); 
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)),
+    url("../images/background-image.jpg"); 
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-attachment: scroll;
 }
 
@@ -182,7 +194,8 @@ img {
 .effective-solutions-for-your-business {
   padding-top: 200px;
   padding-bottom: 30px;
-  margin-left: 237px;
+  margin-left: auto;
+  margin-right: auto;
   width: 652px;
   font-weight: 900;
   font-size: 44px;
@@ -230,7 +243,6 @@ img {
  .icon-our-strengths {
   background-color: var(--senary-color);
   border-radius: 4px;
-  background-image: ;
   margin-bottom: 30px;
  }
 
