@@ -152,7 +152,7 @@ img {
   letter-spacing: 0.02em;
 }
 
-.navigation-list-link:visited {
+.navigation-list-link {
   color: var(--main-color);
 }
 
