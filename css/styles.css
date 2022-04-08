@@ -182,8 +182,8 @@ img {
     url("../images/background-image.jpg"); 
   background-position: center;
   background-repeat: no-repeat;
+  /* szerokość tła ??? */
   background-size: contain;
-  background-attachment: scroll;
 }
 
 .hero .container {
@@ -280,7 +280,8 @@ img {
  }
 
 .what-we-do-title,
-.our-team-title {
+.our-team-title,
+.our-customers {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -317,7 +318,6 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-
 .team-name {
   font-weight: 500;
   color: var(--main-color);
@@ -340,6 +340,29 @@ img {
 }
 
 /* ========== END NASZ ZESPÓŁ ========== */
+
+/* ========== NASI KLIENCI ========== */
+
+.our-customers .container {
+  display: block;
+}
+
+.our-customers-list {
+  display: flex;
+}
+
+.our-customers-item {
+border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+padding: 16px 32px;
+}
+
+.our-customers-item:not(:last-child) {
+  margin-right: 30px;
+ }
+
+/* ========== END NASI KLIENCI ========== */
 
 /* ========== END MAIN ========== */
 
