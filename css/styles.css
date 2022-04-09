@@ -9,6 +9,7 @@
   --senary-color: #f5f4fa;
   --septenary-color:  #757575;
   --octonary-color: #EEEEEE;
+  --nonary-color: #AFB1B8;
 }
 
 body {
@@ -162,11 +163,11 @@ img {
   
 }
 
-.mailto {
+.mailto-icon {
   margin-left: auto;
 }
 
-.mailto::before {
+/* .mailto::before {
   display: inline-block;
   content: "";
   background-image: url("../images/envelope.svg");
@@ -186,7 +187,7 @@ img {
   margin-right: 10px;
   align-items: center;
   justify-items: center;
-}
+} */
 
 .mailto-icon,
 .smartphone-icon {
@@ -257,7 +258,6 @@ img {
 .our-strengths-list {
   display: flex;
   justify-content: center;
-
 }
 
 .our-strengths-item:not(:last-child) {
@@ -276,8 +276,6 @@ img {
  .icon {
   width: 70px;
   height: 70px;
-
-
  }
 
 .our-strengths-title {
@@ -298,11 +296,6 @@ img {
   color: var(--septenary-color);
 }
 
-/* .icon-our-strengths {
-  width: 270px;
-  height: 120px; */
-
-}
 /* ========== END NASZE ATUTY ========== */
 
 /* ========== CZYM SIĘ ZAJMUJEMY ========== */
@@ -388,7 +381,7 @@ img {
   display: flex;
   width: 44px;
   height: 44px;
-  fill: #AFB1B8;
+  fill: var(--nonary-color);
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -421,10 +414,22 @@ img {
 }
 
 .our-customers-item {
-border: 1px solid #AFB1B8;
+border: 1px solid var(--nonary-color);
 box-sizing: border-box;
 border-radius: 4px;
 padding: 16px 32px;
+fill: var(--nonary-color);
+cursor: pointer;
+}
+
+.icon-our-customers {
+  width: 106px;
+  height: 60px;
+}
+
+.our-customers-item:hover,
+.our-customers-item:focus {
+  fill: var(--secondary-color);
 }
 
 .our-customers-item:not(:last-child) {
