@@ -234,6 +234,7 @@ img {
 .our-strengths-list {
   display: flex;
   justify-content: center;
+
 }
 
 .our-strengths-item:not(:last-child) {
@@ -241,9 +242,18 @@ img {
  }
 
  .icon-our-strengths {
+  width: 270px;
+  height: 120px;
   background-color: var(--senary-color);
   border-radius: 4px;
+  padding: 25px 100px;
   margin-bottom: 30px;
+ }
+
+ .icon {
+  width: 70px;
+  height: 70px;
+
  }
 
 .our-strengths-title {
@@ -264,6 +274,11 @@ img {
   color: var(--septenary-color);
 }
 
+/* .icon-our-strengths {
+  width: 270px;
+  height: 120px; */
+
+}
 /* ========== END NASZE ATUTY ========== */
 
 /* ========== CZYM SIĘ ZAJMUJEMY ========== */
@@ -281,7 +296,7 @@ img {
 
 .what-we-do-title,
 .our-team-title,
-.our-customers {
+.our-customers-title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -328,7 +343,6 @@ img {
 .team-job {
   font-weight: 400;
   color: var(--septenary-color);
-  padding-bottom: 30px;
 }
 
 .team-name,
@@ -337,6 +351,36 @@ img {
   line-height: 1.888;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px 18px;
+}
+
+.social-icon-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: var(--tertiary-color); 
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  /* fill: #AFB1B8; */
+}
+
+.social-icon-link:hover,
+.social-icon-link:focus {
+  fill: var(--tertiary-color);
+  background-color: var(--secondary-color);
 }
 
 /* ========== END NASZ ZESPÓŁ ========== */
@@ -370,10 +414,14 @@ padding: 16px 32px;
 
 .footer {
   background-color: var(--quaternary-color);
-
 }
+
 .footer .container {
-  display: block;
+  display: flex;
+}
+
+.left-side {
+  margin-right: 70px;
 }
 
 .address-home {
@@ -399,6 +447,49 @@ padding: 16px 32px;
   line-height: 1.714;
   letter-spacing: 0.03em;
 }
+
+.middle-side {
+  display: block;
+}
+
+.join-us-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  align-items: center;
+  justify-content: center;
+  color: var(--tertiary-color);
+  padding-bottom: 20px;
+}
+
+.join-us-list {
+  display: flex;
+}
+
+.join-us-item {
+  display: flex;
+}
+
+.join-us-icon-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);; 
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-us-icon-link:hover,
+.join-us-icon-link:focus {
+  fill: var(--tertiary-color);
+  background-color: var(--secondary-color);
+}
+
+.join-us-item:not(:last-child) {
+  margin-right: 10px;
+ }
 
 /* ========== END FOOTER ========== */
 
