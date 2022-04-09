@@ -203,10 +203,10 @@ img {
     rgba(47, 48, 58, 0.4), 
     rgba(47, 48, 58, 0.4)),
     url("../images/background-image.jpg"); 
-  background-position: center;
   background-repeat: no-repeat;
   /* szerokość tła ??? */
   background-size: cover;
+
 }
 
 .hero .container {
@@ -276,6 +276,7 @@ img {
  .icon {
   width: 70px;
   height: 70px;
+
 
  }
 
@@ -387,7 +388,7 @@ img {
   display: flex;
   width: 44px;
   height: 44px;
-  background-color: var(--tertiary-color); 
+  fill: #AFB1B8;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -397,9 +398,10 @@ img {
 .social-icon {
   width: 20px;
   height: 20px;
-  /* fill: #AFB1B8; */
 }
 
+.social-icon:hover,
+.social-icon:focus,
 .social-icon-link:hover,
 .social-icon-link:focus {
   fill: var(--tertiary-color);
@@ -498,6 +500,7 @@ padding: 16px 32px;
   display: flex;
   width: 44px;
   height: 44px;
+  fill: var(--tertiary-color);
   background-color: rgba(255, 255, 255, 0.1);; 
   border-radius: 50%;
   align-items: center;
