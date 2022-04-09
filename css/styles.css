@@ -201,13 +201,12 @@ img {
 .hero {
   background-color: var(--quaternary-color);
   background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4), 
-    rgba(47, 48, 58, 0.4)),
-    url("../images/background-image.jpg"); 
+  rgba(47, 48, 58, 0.4), 
+  rgba(47, 48, 58, 0.4)),
+  url("../images/background-image.jpg"); 
   background-repeat: no-repeat;
-  /* szerokość tła ??? */
+  background-position: center;
   background-size: cover;
-
 }
 
 .hero .container {
@@ -262,7 +261,7 @@ img {
 
 .our-strengths-item:not(:last-child) {
   margin-right: 30px;
- }
+}
 
  .icon-our-strengths {
   width: 270px;
@@ -271,12 +270,12 @@ img {
   border-radius: 4px;
   padding: 25px 100px;
   margin-bottom: 30px;
- }
+}
 
  .icon {
   width: 70px;
   height: 70px;
- }
+}
 
 .our-strengths-title {
   font-weight: 700;
@@ -309,7 +308,7 @@ img {
 
 .what-we-do-list-item:not(:last-child) {
   margin-right: 30px;
- }
+}
 
 .what-we-do-title,
 .our-team-title,
@@ -385,7 +384,6 @@ img {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-
 }
 
 .social-icon {
@@ -434,7 +432,7 @@ cursor: pointer;
 
 .our-customers-item:not(:last-child) {
   margin-right: 30px;
- }
+}
 
 /* ========== END NASI KLIENCI ========== */
 
@@ -520,7 +518,7 @@ cursor: pointer;
 
 .join-us-item:not(:last-child) {
   margin-right: 10px;
- }
+}
 
 /* ========== END FOOTER ========== */
 
@@ -538,7 +536,7 @@ cursor: pointer;
 
 .button-list-item:not(:last-child) {
   margin-right: 8px;
- }
+}
 
 .modal-btn-portfolio {
   padding: 6px 22px;
@@ -559,7 +557,7 @@ cursor: pointer;
   color: var(--tertiary-color);
   background: var(--secondary-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .images-list {
