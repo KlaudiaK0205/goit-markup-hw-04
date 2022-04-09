@@ -162,13 +162,23 @@ img {
 
 }
 
-.mailto-icon {
+.mailto {
   margin-left: auto;
 }
 
 .mailto-icon,
 .smartphone-icon {
+  width: 16px;
+  height: 12px;
+  cursor: pointer;
   margin-right: 10px;
+}
+
+.mailto:hover,
+.mailto:focus,
+.phone:hover,
+.phone:focus {
+  fill: var(--secondary-color);
 }
 
 /* ========== END HEADER ========== */
