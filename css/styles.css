@@ -150,7 +150,6 @@ img {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  
 }
 
 .navigation-list-link {
@@ -160,34 +159,12 @@ img {
 .mailto,
 .phone {
   color: var(--septenary-color);
-  
+
 }
 
 .mailto-icon {
   margin-left: auto;
 }
-
-/* .mailto::before {
-  display: inline-block;
-  content: "";
-  background-image: url("../images/envelope.svg");
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  align-items: center;
-  justify-items: center;
-}
-
-.phone::before {
-  display: inline-block;
-  content: "";
-  background-image: url("../images/smartphone.svg");
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  align-items: center;
-  justify-items: center;
-} */
 
 .mailto-icon,
 .smartphone-icon {
