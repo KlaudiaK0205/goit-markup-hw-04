@@ -169,7 +169,7 @@ img {
 .mailto::before {
   display: inline-block;
   content: "";
-  background-image: url(/images/envelope.svg);
+  background-image: url("../images/envelope.svg");
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -180,7 +180,7 @@ img {
 .phone::before {
   display: inline-block;
   content: "";
-  background-image: url(/images/smartphone.svg);
+  background-image: url("../images/smartphone.svg");
   width: 10px;
   height: 16px;
   margin-right: 10px;
