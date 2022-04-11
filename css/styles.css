@@ -433,6 +433,7 @@ cursor: pointer;
 
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .left-side {
